@@ -1,10 +1,3 @@
-
-const product = multiplyBy3(11);
-console.log(product);
-
-const product2 = multiplyBy3('avocado');
-console.log(product2);
-
 const sum = add(7, 3);
 console.log(sum);
 
@@ -21,13 +14,19 @@ console.log('sub(10,4) should be 6', sub(10, 4));
 
 // function concat(a, b){ //function keyword name and arguments
 //     return a + b;
-// } Alt. to the above
+// } 
 
+// Alt. to the above
 const concat = function(a, b){
     return a + b;
 }
 
-function multiplyBy3(x){
+// function multiplyBy3(x){
+//     return 3 * x;
+// }
+
+// Alt. to the above
+const multiplyBy3 = function(x){
     return 3 * x;
 }
 
@@ -71,3 +70,9 @@ console.log(result);
 
 const result2 = concat(10, 3);
 console.log(result2);
+
+const product = multiplyBy3(11);
+console.log(product);
+
+const product2 = multiplyBy3('avocado');
+console.log(product2);
