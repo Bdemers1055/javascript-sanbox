@@ -10,10 +10,12 @@ function fortyTwo() {
     return 42;
 }
 
+// sum 
 function add(x , y){
     return x + y;
 }
 
+// length function
 function length(x) {
     return x.length;
 }
