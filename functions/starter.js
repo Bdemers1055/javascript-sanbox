@@ -10,6 +10,13 @@ function fortyTwo() {
     return 42;
 }
 
+function add(x , y){
+    return x + y;
+}
+
+function length(x) {
+    return x.length;
+}
 
 const result = concat("yayyy", "wooo!!!");
 console.log(result);
@@ -18,8 +25,12 @@ console.log(result2);
 
 const product = multiplyBy3(11);
 console.log(product);
+
 const product2 = multiplyBy3('avocado');
 console.log(product2);
 
-console.log(fortyTwo());
-console.log(fortyTwo('cheese'));
+const sum = add(7, 3);
+console.log(sum);
+
+const lengthOfCheese = length('cheese');
+console.log(lengthOfCheese);
