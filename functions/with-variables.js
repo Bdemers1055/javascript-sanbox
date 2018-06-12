@@ -1,5 +1,3 @@
-console.log("Is 4 ,5 ,5 a triple?", triple(3, 4, 5));
-console.log("Is 4 ,5 ,5 a triple?", triple(5, 9, 16));
 
 // sub test cases
 console.log('sub(3,4) should be -1', sub(3, 4));
@@ -61,7 +59,12 @@ const length = function(x) {
  * @return boolean true if a^2 + b^2 === c^2
  */
 
-function triple(a, b, c ) {
+// function triple(a, b, c ) {
+//     return a * a + b * b === c * c;
+// }
+
+// Alt. to the above
+const triple = function(a, b, c) {
     return a * a + b * b === c * c;
 }
 
@@ -95,3 +98,6 @@ console.log(sum);
 
 const lengthOfCheese = length('cheese');
 console.log(lengthOfCheese);
+
+console.log("Is 4 ,5 ,5 a triple?", triple(3, 4, 5));
+console.log("Is 4 ,5 ,5 a triple?", triple(5, 9, 16));
