@@ -30,9 +30,14 @@ const multiplyBy3 = function(x){
     return 3 * x;
 }
 
-function fortyTwo() {
+// function fortyTwo() {
+//     return 42;
+// }
+// Alt. to the above
+const fortyTwo = function() {
     return 42;
 }
+
 
 // sum 
 function add(x , y){
@@ -76,3 +81,6 @@ console.log(product);
 
 const product2 = multiplyBy3('avocado');
 console.log(product2);
+
+-console.log(fortyTwo());
+-console.log(fortyTwo('cheese')); 
