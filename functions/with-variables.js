@@ -22,10 +22,13 @@ const concat = (a, b) => a + b; // in fat arrow functions there is an implicit r
 //     return 3 * x;
 // };
 
-// Further alt. to the above using "fat" arrow functions
-const multiplyBy3 = (x) => {
-    return 3 * x;
-};
+// Further alt. to the above using "fat" arrow functions with return
+// const multiplyBy3 = (x) => {
+//     return 3 * x;
+// };
+
+// Further alt. to the above using "fat" arrow functions implicit return
+const multiplyBy3 = (x) => 3 * x;
 
 // function fortyTwo() {
 //     return 42;
