@@ -4,18 +4,28 @@
 // } 
 
 // Alt. to the above
-const concat = function(a, b){
-    return a + b;
-}
+// const concat = function(a, b){
+//     return a + b;
+// }
+
+// Further alt. to the above using "fat" arrow functions
+const concat = (a, b) => a + b; // in fat arrow functions there is an implicit return if you have no "{}"
+
+
 
 // function multiplyBy3(x){
 //     return 3 * x;
 // }
 
 // Alt. to the above
-const multiplyBy3 = function(x){
+// const multiplyBy3 = function(x){
+//     return 3 * x;
+// };
+
+// Further alt. to the above using "fat" arrow functions
+const multiplyBy3 = (x) => {
     return 3 * x;
-}
+};
 
 // function fortyTwo() {
 //     return 42;
@@ -23,7 +33,7 @@ const multiplyBy3 = function(x){
 // Alt. to the above
 const fortyTwo = function() {
     return 42;
-}
+};
 
 
 // sum 
@@ -34,7 +44,7 @@ const fortyTwo = function() {
 // Alt. to the above
 const add = function(x, y){
     return x + y;
-}
+};
 
 // length function
 // function length(x) {
@@ -44,7 +54,7 @@ const add = function(x, y){
 // Alt. to the above
 const length = function(x) {
     return x.length;
-}
+};
 
 
 /**
@@ -76,7 +86,7 @@ const triple = function(a, b, c) {
 // Alt. to the above
 const sub = function(x, y) {
     return x - y;
-}
+};
 
 
 const result = concat("yayyy", "wooo!!!");
