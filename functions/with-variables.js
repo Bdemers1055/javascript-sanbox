@@ -1,6 +1,3 @@
-const lengthOfCheese = length('cheese');
-console.log(lengthOfCheese);
-
 console.log("Is 4 ,5 ,5 a triple?", triple(3, 4, 5));
 console.log("Is 4 ,5 ,5 a triple?", triple(5, 9, 16));
 
@@ -47,9 +44,15 @@ const add = function(x, y){
 }
 
 // length function
-function length(x) {
+// function length(x) {
+//     return x.length;
+// }
+
+// Alt. to the above
+const length = function(x) {
     return x.length;
 }
+
 
 /**
  * @param a - number of the small side a triangle
@@ -89,3 +92,6 @@ console.log(product2);
 
 const sum = add(7, 3);
 console.log(sum);
+
+const lengthOfCheese = length('cheese');
+console.log(lengthOfCheese);
