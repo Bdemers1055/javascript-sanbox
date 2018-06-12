@@ -1,9 +1,4 @@
 
-// sub test cases
-console.log('sub(3,4) should be -1', sub(3, 4));
-console.log('sub(10,4) should be 6', sub(10, 4));
-
-
 // function concat(a, b){ //function keyword name and arguments
 //     return a + b;
 // } 
@@ -74,9 +69,15 @@ const triple = function(a, b, c) {
  * @return the difference of x and y (x - y)
  */
 
-function sub(x, y) {
+// function sub(x, y) {
+//     return x - y;
+// }
+
+// Alt. to the above
+const sub = function(x, y) {
     return x - y;
 }
+
 
 const result = concat("yayyy", "wooo!!!");
 console.log(result);
@@ -101,3 +102,8 @@ console.log(lengthOfCheese);
 
 console.log("Is 4 ,5 ,5 a triple?", triple(3, 4, 5));
 console.log("Is 4 ,5 ,5 a triple?", triple(5, 9, 16));
+
+// sub test cases
+console.log('sub(3,4) should be -1', sub(3, 4));
+console.log('sub(10,4) should be 6', sub(10, 4));
+
