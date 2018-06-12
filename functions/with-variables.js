@@ -38,7 +38,6 @@ const fortyTwo = function() {
     return 42;
 };
 
-
 // sum 
 // function add(x , y){
 //     return x + y;
