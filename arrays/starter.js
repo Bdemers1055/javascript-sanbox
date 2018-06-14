@@ -17,3 +17,6 @@ letters[10] = 'q'; // this is BAD because we now have a gap
 console.log('nums: ', nums);
 console.log('letters: ', letters);
 console.log(letters[5]); // still undefined because the array doesn't have an element there 
+
+console.log('Length of nums: ', nums.length);
+console.log('Length of letters: ', letters.length);
