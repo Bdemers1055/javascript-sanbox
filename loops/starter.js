@@ -29,3 +29,25 @@ while(x < 11){
     x += 1; // this is a bias opinion
     // alt to above it x ++; or ++x
 }
+
+// Exercise: I want to print the numbers 3 - 13 (1 per line)
+// WITH A FOR LOOP
+
+for(let j = 3; j < 14; j += 1){
+    console.log(j);
+}
+
+// with a while loop
+
+let k = 3;
+while(k < 14){
+    console.log(k);
+    k += 1;
+}
+
+// Exercise: I want to print every other number starting at 4 and 
+// ending with 16 one per line
+
+for(let l = 4; l < 17; l +=2){
+    console.log(l);
+}
