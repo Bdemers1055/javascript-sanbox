@@ -20,3 +20,12 @@ for(let i = 1; i < 11; i += 1){ // could be 1<=10 also
 console.log(i);
 }
 
+// console.log(1); does not exist outside of loop because of the use of let
+
+// WITH WHILE LOOP
+let x = 1;
+while(x < 11){
+    console.log(x);
+    x += 1; // this is a bias opinion
+    // alt to above it x ++; or ++x
+}
