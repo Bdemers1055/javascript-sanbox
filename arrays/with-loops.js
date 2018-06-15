@@ -63,4 +63,8 @@ const words = ['cat', 'dog', 'cheese', 'ham', 'burrito'];
 const threeLetterWords = words.filter((element) => element.length / 3 === 1);  
 console.log(threeLetterWords);
 
+const x = words.filter((word) => wodr.lenth / 3 === 1)
+                .map((word) ==> word.length * 3)
+                console.log(x);
+
 
