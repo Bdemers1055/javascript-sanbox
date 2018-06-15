@@ -46,3 +46,21 @@ console.log(doubled);
 
 const withPeriod = letters.map((element, index) =>  element + '.');
 console.log(withPeriod);
+
+const otherNumbers = [10, 11, 12, 13, 14];
+// Exercise: I want to find the elements that are divisible by two
+// hint: % modulo/modulus operator returns the remainder
+
+const evens = otherNumbers.filter((element) => element % 2 === 0);
+console.log(evens);
+
+const odds = otherNumbers.filter((element) => element % 2 === 1);
+console.log(odds);
+
+const words = ['cat', 'dog', 'cheese', 'ham', 'burrito'];
+// Exercise: I wnt to find the words that a 3 letters long
+
+const threeLetterWords = words.filter((element) => element.length / 3 === 1);  
+console.log(threeLetterWords);
+
+
